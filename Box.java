@@ -1,11 +1,12 @@
-package day1;
+package day2exercise;
 
 public class Box {
-	int length;
-	int width;
+	double length;
+	double width;
+	
 	void calculateArea(){
-		int area= length + width;
-		System.out.println("Area = " + area);
+		double area = length + width;
+		System.out.println("Area =" + area);
 	}
 
 }

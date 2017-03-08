@@ -1,30 +1,30 @@
-package assignments;
+package day2exercise;
 
 public class Employee {
 
-    double hoursWork;
-    double basePay;
-    double subtotal;
-    double totalPay;
-    double minimumWage ;
-    double lowerHoursLimit;
-    double upperHoursLimit;
-    void calculateTotalPay(){
-    	if(hoursWork <= 40){
-    		if(minimumWage> basePay){   		
-    			totalPay = hoursWork*basePay;
-    			System.out.println("Total Pay of Employee = " + totalPay);
-    			}else{
-    				System.out.println("Error: Base wage is less than mimimum wage");
-    			}
-    		}else if(hoursWork <= 60){
-    			subtotal = basePay*1.5;
-    			totalPay = hoursWork*subtotal;
-    			System.out.println("Total Pay of Employee = " + totalPay);   		
-    		}else{
-    			System.out.println("Error:Eployee worked more than 60 hours");
-    		}
-   		 
-    	}
-    	}
+	public static void main(String[] args) {
+		//Exercise1 alex, linda, john;
+		//alex = new Exercise1();
+		//linda = new Exercise1();
+		//john = new Exercise1();
+		
+		Exercise1 alex = new Exercise1();
+		Exercise1 linda = new Exercise1();
+		Exercise1 john = new Exercise1();
+		
+		alex.salary = 900;
+		alex.bonous=200;
+		alex.calculateTotalPay();
+		//System.out.println(totalpay);
+		
+		linda.salary = 1900;
+		linda.bonous = 200;
+		linda.calculateTotalPay();
+		
+		john.salary = 2900;
+		john.bonous = 200;
+		john.calculateTotalPay();
 
+	}
+
+}
