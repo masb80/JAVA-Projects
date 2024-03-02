@@ -1,2 +1,10 @@
-PayrollS for MEL GROUP uploaded.
-TAUMUN was not uploaded cz protected at mun gdrive.
+
+### Java 8 New Features
+forEach() method in Iterable interface
+default and static methods in Interfaces
+Functional Interfaces and Lambda Expressions
+Java Stream API for Bulk Data Operations on Collections
+Java Time API
+Collection API improvements
+Concurrency API improvements
+Java IO improvements
